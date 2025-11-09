@@ -1,0 +1,27 @@
+# Large model files
+<<<<<<< HEAD
+*.pth
+=======
+>>>>>>> clean-main
+*.pt
+*.ckpt
+
+# Datasets
+*.tar
+*.tar.gz
+*.zip
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+.venv
