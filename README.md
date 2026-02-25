@@ -36,7 +36,7 @@ Built with **PyTorch, Vision Transformer (ViT), and React**.
 
 ## 📂 Project Structure
 
-
+```
 Food-Allergen-Detector/
 │
 ├── model/ # Trained ViT model files
@@ -46,7 +46,7 @@ Food-Allergen-Detector/
 ├── train.py # Model training script
 ├── infer.py # Inference pipeline
 └── requirements.txt
-
+```
 
 ---
 
@@ -80,8 +80,10 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 
-Replace app.py if your entry file is different.
+```
 
-🎯 Overview
+---
+
+## 🎯 Overview
 
 This system leverages a pre-trained Vision Transformer architecture fine-tuned on the Food-101 dataset to perform food classification. It integrates a structured allergen database to generate real-time alerts, combining computer vision with applied health-tech use cases in a full-stack ML deployment pipeline.
